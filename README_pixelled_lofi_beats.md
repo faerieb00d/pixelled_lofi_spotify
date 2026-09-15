@@ -4,19 +4,20 @@
 
 
 > Every album cover you see is **generated on the fly** — an 8×8 pixel grid, mirrored for symmetry, seeded by song ID so the same track always gets the same little critter. No image files, no external art assets. Just math and pastel.
-> PS: The song names and supposed musicians names are jumbled and made from my favorite books and authors :)
+
+ PS: The song names and supposed musicians names are jumbled and made from my favorite books and authors :)
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎨 **Procedural pixel-art covers** — each song generates its own symmetric sprite from a deterministic seed (see [`How the pixel art works`](#-how-the-pixel-art-works))
-- 🍬 **Pastel + pixel aesthetic** — hard-edged borders, offset drop shadows, a pixel display font, and a 4-color pastel palette (pink / mint / butter / sky)
-- ▶️ **Full player bar** — play / pause / skip, a draggable progress scrubber, volume control, and a like button
-- 💗 **Liked Songs view** — heart a track and it shows up in its own tab
-- 🔍 **Live search** — filters the song grid as you type
-- 📱 **Responsive layout** — sidebar collapses gracefully on narrow screens
-- 🧩 **Zero dependencies** — no npm install, no bundler, just open the HTML file
+-  **Procedural pixel-art covers** — each song generates its own symmetric sprite from a deterministic seed (see [`How the pixel art works`](#-how-the-pixel-art-works))
+-  **Pastel + pixel aesthetic** — hard-edged borders, offset drop shadows, a pixel display font, and a 4-color pastel palette (pink / mint / butter / sky)
+-  **Full player bar** — play / pause / skip, a draggable progress scrubber, volume control, and a like button
+-  **Liked Songs view** — heart a track and it shows up in its own tab
+-  **Live search** — filters the song grid as you type
+-  **Responsive layout** — sidebar collapses gracefully on narrow screens
+-  **Zero dependencies** — no npm install, no bundler, just open the HTML file
 
 ---
 
@@ -40,7 +41,7 @@
 
 ---
 
-## 📁 Project structure
+##  Project structure
 
 ```
 pixelbeat/
@@ -52,7 +53,7 @@ pixelbeat/
 
 ---
 
-## 🎨 How the pixel art works
+##  How the pixel art works
 
 Each song's cover is drawn at true **8×8 pixel resolution** on a `<canvas>`, then scaled up with `image-rendering: pixelated` so the edges stay crisp instead of blurring.
 
@@ -93,7 +94,7 @@ MIT — see [`LICENSE`](./LICENSE). Use it, remix it, make it your own.
 
 ---
 
-## 🙋 Author
+##  Author
 
 Built by **Mittali Singh** as a portfolio project exploring procedural pixel art and pastel UI design.
 
