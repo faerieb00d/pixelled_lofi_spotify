@@ -1,12 +1,7 @@
-# 🎧 pixelbeat
+# cotton candy beats 
 
 **A pastel, pixel-art Spotify clone — built with plain HTML, CSS, and JavaScript. No frameworks, no build step, just vibes.**
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![License: MIT](https://img.shields.io/badge/License-MIT-B7EFC5?style=for-the-badge)
-![No Framework](https://img.shields.io/badge/Framework-None%20needed-FFB3C6?style=for-the-badge)
 
 > Every album cover you see is **generated on the fly** — an 8×8 pixel grid, mirrored for symmetry, seeded by song ID so the same track always gets the same little critter. No image files, no external art assets. Just math and pastel.
 
@@ -24,17 +19,14 @@
 
 ---
 
-## 🖼️ Preview
+##  Preview 🖼️
+<img width="954" height="497" alt="Screenshot 2026-09-15 135935" src="https://github.com/user-attachments/assets/d05b3f11-b4f3-4760-8fd2-a1607c47be8c" />
 
-| Home view | Player bar |
-|---|---|
-| Sidebar nav + song grid with generated pixel covers | Progress scrubber, like button, skip controls |
 
-*(Drop your own screenshot or screen recording here — a quick GIF of clicking a song and watching the pixel cover load into the player bar sells this project immediately.)*
 
 ---
 
-## 🛠️ Tech stack
+##  Tech stack
 
 | Layer | What's used | Why |
 |---|---|---|
@@ -44,24 +36,6 @@
 | Art | `<canvas>` + a seeded PRNG (mulberry32) | Deterministic, reproducible "random" pixel sprites |
 
 ---
-
-## 🚀 Getting started
-
-No installation required.
-
-```bash
-git clone https://github.com/your-username/pixelbeat.git
-cd pixelbeat
-open index.html   # or just double-click it
-```
-
-That's it — it's a static site. No `npm install`, no dev server, no build step.
-
-> **Want to serve it locally instead of opening the file directly?**
-> ```bash
-> python3 -m http.server 8000
-> # then visit http://localhost:8000
-> ```
 
 ---
 
@@ -92,8 +66,8 @@ Want a song to always look a certain way? Just change its `palette` value in the
 
 ## 🎵 Adding real audio
 
-Playback currently ships in **simulated mode** — no audio files are bundled, so the progress bar fills on a timer rather than playing real sound. To wire in actual songs:
-
+Playback currently ships in **simulated mode** — no audio files are bundled, because royalty free music wasnt a vibe.
+But if you want you can clone and add royalty free tunes in following ways:
 1. Drop `.mp3` files into a `songs/` folder.
 2. Add a `src` field to each song object in `SONGS` (in `script.js`).
 3. Swap the simulated timer in `playSong()` for a real `Audio` element driven by `timeupdate`/`ended` events.
@@ -102,34 +76,17 @@ Full step-by-step code for this is commented directly in `script.js` under the *
 
 > 🎼 Need royalty-free tracks? [Pixabay Music](https://pixabay.com/music/) (no attribution required) and [Incompetech](https://incompetech.com/music/royalty-free/) (chiptune-friendly, attribution required) are both good fits for this aesthetic.
 
----
 
-## 🗺️ Roadmap
-
-- [ ] Real audio playback (`<audio>` element wired to real files)
-- [ ] Firebase Auth for login / signup
-- [ ] Persist liked songs per-user (Firestore or localStorage)
-- [ ] Drag-to-reorder queue
-- [ ] Light/dark pastel theme toggle
-- [ ] Shuffle + repeat modes
-
----
-
-## 🤝 Contributing
+## Contributing
 
 This is a personal/portfolio project, but pull requests are welcome — especially for:
 - New pixel-palette themes
 - Accessibility improvements (keyboard nav, ARIA labels on the player controls)
 - Bug fixes
 
-1. Fork the repo
-2. Create a branch: `git checkout -b feature/your-idea`
-3. Commit your changes: `git commit -m "add: your idea"`
-4. Push and open a PR
-
 ---
 
-## 📄 License
+## License
 
 MIT — see [`LICENSE`](./LICENSE). Use it, remix it, make it your own.
 
