@@ -1,4 +1,4 @@
-# cotton candy beats 
+# The cotton candy beats💗
 
 **A pastel, pixel-art Spotify clone — built with plain HTML, CSS, and JavaScript. No frameworks, no build step, just vibes.**
 
