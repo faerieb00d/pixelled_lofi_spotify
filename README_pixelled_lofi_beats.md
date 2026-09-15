@@ -4,6 +4,7 @@
 
 
 > Every album cover you see is **generated on the fly** — an 8×8 pixel grid, mirrored for symmetry, seeded by song ID so the same track always gets the same little critter. No image files, no external art assets. Just math and pastel.
+> PS: The song names and supposed musicians names are jumbled and made from my favorite books and authors :)
 
 ---
 
