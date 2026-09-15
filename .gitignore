@@ -1,18 +1,14 @@
-# OS
+
 .DS_Store
 Thumbs.db
 
-# Editor
 .vscode/
 .idea/
 *.swp
 
-# Dependencies (if you ever add tooling later)
-node_modules/
 
-# Env files (if you add Firebase config as env vars later)
-.env
-.env.local
+
+
 
 # Logs
 *.log
